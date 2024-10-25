@@ -1,0 +1,1453 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body{
+    width: 1440px;
+    height: 1024px;
+    background: #FFFFFF;
+
+  }
+
+  .container{
+    position: relative;
+    width: 1397px;
+    height: 761px;
+    top: 132px;
+    left: 22px;
+
+  }
+
+  .heading{
+    position: relative;
+    left: 5px;
+    width: 1390px;
+    height: 136px;
+    box-shadow: 0px 4px 0px 0px #00000040;
+  }
+
+  .lab{
+    position: relative;
+    width: 296px;
+    height: 60px;
+    top: 49px;
+    left: 24px;
+    display: flex;
+  }
+
+  .logoImg{
+    width: 69px;
+    height: 60px;
+    top: 43px;
+    left: 24px;
+    background: #9C3030;
+    border: 6px solid #9C3030
+
+  }
+
+.labText {
+    position: relative;
+    width: 221px;
+    height: 60px;
+    left: 5px;
+    border: 6px solid #9C3030;
+    background: #e8dede;
+
+}
+
+.Lis {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 51.3px;
+    text-align: left;
+    width: 191px;
+    height: 51px;
+    color: #9C3030;
+    margin: auto;
+
+}
+
+
+.barImg{
+    position: relative;
+    font-size: 50px;
+    margin: auto;
+    left: 357px;
+    bottom: 10px;
+}
+
+.bellImg{
+    position: relative;
+    width: 40px;
+    height: 41.45px;
+    left: 681px;
+}
+
+.user {
+    position: relative;
+    width: 50px;
+    height: 50.15px;
+    left: 685px;
+    top: 8px;
+    
+}
+
+
+.Laboratory{
+    position: relative;
+    margin: auto;
+    bottom: 15px;
+    width: 365px;
+    height: 42px;
+    left: 424px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 42.19px;
+    text-align: left;
+    color: #5B5B5B;
+
+}
+
+.Isaac{
+    position: relative;
+    width: 153px;
+    height: 28px;
+    left: 687px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28.13px;
+    text-align: left;
+    color: #5B5B5B;
+    margin: auto;
+    bottom: 10px;
+}
+
+.arrow{
+    position: relative;
+    width: 15px;
+    height: 15.39px;
+    left: 695px;
+    color: #5B5B5B;
+    bottom: 9px;
+}
+
+.mainBody{
+    display: flex;
+    margin-top: 20px;
+}
+
+.leftSide {
+    width: 347px;
+    height: 620px;
+    top: 157px;
+    background: #FFFFFF;
+    border: 0px solid #5B5B5B;
+    box-shadow: 6px -6px 6px 0px #00000040;
+
+}
+
+.centrePage{
+    position: absolute;
+    width: 1028px;
+    height: 620px;
+    top: 157px;
+    left: 369px;
+    border: 0px solid #5B5B5B;
+    box-shadow: -6px -6px 6px 0px #E5E5E5;
+    background: #FFFFFF;
+  
+}
+
+.bottomPage{
+    position: absolute;
+    width: 1030px;
+    height: 89px;
+    top: 790px;
+    left: 367px;
+    border: 0px solid #5B5B5B;
+    box-shadow: 3px 3px 4px 7px #E5E5E5;
+    display: flex;
+    margin-top: 60px;
+    position: absolute;
+    top: 550px;
+    left: 2px;
+}
+
+.DrugPageText{
+    position: relative;
+    width: 15.9rem;
+    height: 1.75rem;
+    left: 30px;
+    top: 10px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28.13px;
+    text-align: left;
+    color: #5B5B5B;
+}
+
+.PreDrug{
+  position: absolute;
+  width: 109px;
+height: 16px;
+left: 23px;
+top: 140px;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 16.41px;
+text-align: left;
+color: #5B5B5B;
+
+}
+
+.TableHeader{
+height: 29px;
+top: 323px;
+left: 391px;
+background: #F3F2F2;
+border: 0px solid #E5E5E5;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+
+th{
+width: 165.333px;
+padding: 10px;
+text-align: center;
+  border-bottom: 2px solid #E5E5E5;
+  font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 16.41px;
+text-align: left;
+color: #5B5B5B;
+
+
+ 
+}
+
+td{
+  height: 48px;
+  width: 165.333px;
+  border-top: 2px solid #E5E5E5;
+  padding: 10px;
+  text-align: center;
+  border-left: 2px solid #E5E5E5;
+  font-family: Roboto;
+font-size: 12px;
+font-weight: 500;
+line-height: 14.06px;
+text-align: left;
+color: #5B5B5B;
+
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  left: 14px;
+  margin-bottom: 20px;
+}
+
+#table{
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  bottom: 25px;
+  left: 14px;
+  margin-bottom: 20px;
+  position: relative;
+  top: 95px;
+
+}
+
+tr td:first-child, 
+tr th:first-child {
+  border-left: none;
+}
+
+tr td:last-child, 
+tr th:last-child {
+  border-right: none;
+}
+
+.Col1{
+  width: 60px;
+  text-align: center;
+}
+
+.Col2{
+  width: 200px;
+}
+
+.col3, .col4{
+  width: 130px;
+
+}
+
+.ArtImg{
+  width: 64px;
+height: 15px;
+top: 377px;
+left: 467px;
+border-radius: 5px 0px 0px 0px;
+
+}
+
+.RemoveImg{
+  position: relative;
+  width: 47px;
+height: 16px;
+left: 56px;
+border-radius: 5px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+
+}
+
+.removeBtn{
+  position: relative;
+  left: 56px;
+ border: 1px solid #9C3030;
+  width: 47px;
+height: 16px;
+border-radius: 5px;
+border: 1px ;
+background: #A12B2B;
+font-family: Roboto;
+font-size: 10px;
+font-weight: 900;
+line-height: 11.72px;
+text-align: left;
+color: #FFFFFF;
+}
+
+.NextBtn{
+  position: relative;
+  background: #A12B2B;
+  font-family: Roboto;
+font-size: 14px;
+font-weight: 900;
+line-height: 16.41px;
+text-align: center;
+color: #FFFFFF;
+width: 105px;
+height: 42px;
+top: 138px;
+right: 13px;
+border-radius: 5px;
+border: none;
+}
+
+
+
+.circle{
+position: relative;
+left: 7px;
+top: 3px;
+}
+
+.textSearch{
+  font-family: Roboto;
+font-size: 12px;
+font-weight: 900;
+line-height: 14.06px;
+text-align: left;
+color: #5B5B5B;
+
+}
+input::placeholder{
+  font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: 14.06px;
+text-align: left;
+color: #C4C4C4;
+position: relative;
+left: 10px;
+}
+
+.SInput{
+  width: 301px;
+height: 33px;
+top: 617px;
+left: 390px;
+border-radius: 5px ;
+box-shadow: 0px 0px 9px 2px #00000040;
+border: 1px solid #FFFBFB;
+background: #FFFFFF;
+
+}
+
+
+.IInput{
+  width: 243px;
+  height: 32px;
+top: 617px;
+left: 390px;
+border-radius: 5px ;
+box-shadow: 0px 0px 9px 2px #00000040;
+border: 1px solid #FFFBFB;
+background: #FFFFFF;
+}
+
+
+.InInput{
+  width: 272px;
+  height: 32px;
+top: 617px;
+left: 390px;
+border-radius: 5px ;
+box-shadow: 0px 0px 9px 2px #00000040;
+border: 1px solid #FFFBFB;
+background: #FFFFFF;
+}
+
+
+.DInput{
+  width: 105px;
+  height: 31px;
+top: 617px;
+left: 390px;
+border-radius: 5px ;
+box-shadow: 0px 0px 9px 2px #00000040;
+border: 1px solid #FFFBFB;
+background: #FFFFFF;
+}
+
+.AddBtn{width: 46px;
+  height: 28px;
+  border-radius: 5px;
+  border: 1px solid #9C3030;
+  background: #A12B2B;
+  color: #FFF;
+  position: relative;
+  left: 40px;
+  top: 56px;
+  
+  }
+  
+.flexIt{
+  display: flex;
+}
+
+.EmzorContainer{
+  position: relative;
+  bottom: 10px;
+  width: 300px;
+  height: 107px;
+  box-shadow: 0px -2px 7px 2px #00000040;
+  
+}
+
+.EmzorText{
+  position: relative;
+  left: 15px;
+  font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: 14.06px;
+text-align: left;
+color: #5B5B5B;
+top: 10px;
+}
+
+.sachetText{
+  position: relative;
+  left: 15px;
+  font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: 14.06px;
+text-align: left;
+color: #8F8989;
+}
+
+.MedicineContainer{
+  position: relative;
+  left: 15px;
+}
+
+.IntervalContainer{
+  position: relative;
+left: 18px;
+}
+
+.SpecialContainer{
+  position: relative;
+  left: 21px;
+}
+
+.DurationContainer{
+  position: relative;
+  left: 24px;
+}
+
+
+.HomeText{
+    position: relative;
+    bottom: 44px;
+    right: 5px;
+    width: 49px;
+    height: 21px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 21.09px;
+    text-align: left;
+    color: #C4C4C4;
+
+}
+
+.PageI{
+    position: relative;
+    bottom: 45px;
+    width: 57px;
+    height: 21px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 21.09px;
+    text-align: left;
+    color: #C4C4C4;
+
+}
+
+.PageII{
+    position: relative;
+    bottom: 45px;
+    left: 5px;
+    width: 57px;
+    height: 21px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 21.09px;
+    text-align: left;
+    color: #5B5B5B;
+}
+
+.flexBlank{
+    display: flex;
+    position: relative;
+    bottom: 40px;
+    left: 790px;
+}
+
+.arrowRight{
+    width: 15px;
+height: 17.14px;
+padding: 1.26px 0px 1.26px 0px;
+margin-left: 4px;
+margin-right: 4px;
+}
+
+
+.Netwalkers{
+    position: relative;
+    width: 477px;
+    height: 22px;
+    left: 40px;
+    font-size: 19px;
+    font-weight: 900;
+    line-height: 22.27px;
+    text-align: left;
+    color: #5B5B5B;
+    font-family: Roboto;
+
+}
+
+.about{
+    position: relative;
+    width: 499px;
+    height: 5px;
+    left: 898px;
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 900;
+    line-height: 22.27px;
+    text-align: left;
+    color: #5B5B5B;
+    left: 60px;
+}
+
+
+
+.ANC{
+    position: relative;
+    top: 70px;
+    margin-right: 50px;
+    margin-top: 26px;
+}
+
+.arrrowI{
+    position: relative;
+    top: 62px;
+    width: 15px;
+    height: 15.39px;
+    left: 52px;
+    }
+
+    .arrrowII{
+        position: relative;
+        top: 62px;
+        width: 15px;
+        height: 15.39px;
+        left: 55px;
+    }
+
+    .arrrowIII{
+        position: relative;
+        top: 62px;
+        width: 15px;
+        height: 15.39px;
+        left: 65px;
+    }
+
+
+    .arrrowIV{
+        position: relative;
+        top: 62px;
+        width: 15px;
+        height: 15.39px;
+        left: 109px;
+    }
+
+
+    .arrrowV{
+        position: relative;
+        top: 62px;
+        width: 15px;
+        height: 15.39px;
+        left: 90px;
+    }
+
+
+    .arrrowVI{
+        position: relative;
+        top: 62px;
+        width: 15px;
+        height: 15.39px;
+        left: 77px;
+    }
+
+
+    .arrrowVII{
+        position: relative;
+        top: 62px;
+        width: 15px;
+        height: 15.39px;
+        left: 145px;
+    }
+
+
+    .arrrowVIII{
+        position: relative;
+        top: 62px;
+        width: 15px;
+        height: 15.39px;
+        left: 94px;
+    }
+
+
+
+    .arrroww{
+        position: relative;
+        width: 15px;
+        height: 15.39px;
+        left: 265px;
+        margin-top: 28px;
+        }
+    
+    label{
+        position: relative;
+        top: 65px;
+        width: 126px;
+        height: 30px;
+        font-family: Roboto;
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 30.47px;
+        text-align: left;
+        color: #5B5B5B;
+    }
+
+
+    .vertical-line {
+        position: absolute; 
+        width: 9px;         
+        height: 527px;      
+        top: 216px;         
+        left: 329px; 
+        opacity: 1;        
+        background: #C4C4C4;;
+        ;        
+      }
+
+      .hr{
+        position: relative;
+        width: 97.01px;
+        height: 0px;
+        top: 58px;
+        right: 46.01px;
+        border: 3px 0px 0px 0px;
+        border: 3px solid #9C3030
+      } 
+
+      .NextBtn{
+
+      }
+      
+      .checkboxes {
+        width: 100%; 
+      }
+      
+      .scrollable-content {
+        max-height: 620px;  
+        overflow-y: auto;  
+      }
+      
+      .scrollable-content div {
+        margin-bottom: 10px;
+      }
+      
+      .scrollable-content::-webkit-scrollbar {
+        width: 8px;
+      }
+      
+      .scrollable-content::-webkit-scrollbar-thumb {
+        background-color: #C4C4C4;
+        border-radius: 4px;
+      }
+      
+      .scrollable-content::-webkit-scrollbar-track {
+        background-color: #f1f1f1;
+      }
+
+      .buttonsPark {
+        display: flex;
+        position: relative;   
+        bottom: 60px;     
+    }
+    
+    .buttonsPark button {
+        width: 50px;
+        height: 50px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+    }
+   
+  /* Style the buttons to remove any default button styling */
+  button {
+      border: none;
+      background: none;
+      padding: 0;
+      margin: 0;
+      cursor: pointer;
+  }
+  
+  /* Image styling remains the same, they will look exactly like before */
+  .vitalImg {
+      position: absolute;
+      width: 13.6rem;
+      height: 1.19rem;
+      top: 103px;
+      left: 20px;
+  }
+  
+  .DiaImg {
+      position: absolute;
+      width: 4.6rem;
+      height: 1.125rem;
+      top: 103px;
+      left: 232px;
+      border: 1px solid #AA2F2F;
+  }
+  
+  .PlanImg {
+      position: absolute;
+      width: 2.1rem;
+      height: 1.125rem;
+      top: 103px;
+      left: 302px;
+      border: 1px solid #AA2F2F;
+  }
+  
+  .chargesImg {
+      position: absolute;
+      width: 3.7rem;
+      height: 1.125rem;
+      top: 103px;
+      left: 337px;
+      border: 1px solid #AA2F2F;
+  }
+  
+  .PaymentImg {
+      position: absolute;
+      width: 4.44rem;
+      height: 1.125rem;
+      top: 103px;
+      left: 392px;
+      border: 1px solid #AA2F2F;
+  }
+  
+  .PreImg {
+      position: absolute;
+      width: 5.6rem;
+      height: 1.125rem;
+      top: 103px;
+      left: 458px;
+      border: 1px solid #AA2F2F;
+  }
+  
+  .MedImg {
+      position: absolute;
+      width: 5.2rem;
+      height: 1.125rem;
+      top: 103px;
+      left: 545px;
+  }
+  
+  .PrDrug{
+    position: absolute;
+    top: 1px;
+    margin-top: 120px;
+    margin-left: 15px;
+    z-index: 3;
+  }
+
+  #doneBtn{
+    width: 146px;
+height: 28px;
+border-radius: 5px;
+border: 1px solid #9C3030;
+background: #A12B2B;
+color: #FFF;
+position: relative;
+top: 95px;
+left: 875px;
+
+  }
+
+  .doneArrow{
+    z-index: 5;
+
+  }
+  #dropdown{
+    position: relative;
+    left: 850px;
+    top: 100px;
+
+  }
+
+  #saveActionBtn{
+    border-radius: 5px;
+border: 1px solid #9C3030;
+background: #A12B2B;
+color: #FFF;
+width: 76px;
+height: 28px;
+
+  }
+
+  #actionInput{
+    border-radius: 5px ;
+    box-shadow: 0px 0px 9px 2px #00000040;
+    border: 1px solid #FFFBFB;
+    background: #FFFFFF;
+    height: 28px;
+
+  }
+
+  
+
+#classDropdown {
+  border: 1px solid #ccc;
+  max-height: 200px;
+  overflow-y: auto;
+  background-color: white;
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+}
+
+.dropdown-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+
+
+  .PreADrugContainer{
+    margin-top: 40px;
+    position: absolute;
+    right: 10px;
+
+  }
+
+  .MNewBtn{
+    width: 140px;
+    height: 28px;
+    border-radius: 5px;
+    border: 1px solid #E5E5E5;
+    color: #A12B2B;
+    background: #FFF;
+    position: relative;
+    left: 110px;
+    bottom: 40px;
+    
+  }
+
+  .MListBtn{
+    width: 110px;
+    height: 28px;
+    border-radius: 5px;
+    border: 1px solid #E5E5E5;
+    color: #A12B2B;
+    background: #FFF;
+    position: relative;
+    left: 90px;
+    bottom: 40px;
+   
+  }
+
+  .Dose{
+    width: 103px;
+    height: 32px;
+  border-radius: 5px ;
+  box-shadow: 0px 0px 9px 2px #00000040;
+  border: 1px solid #FFFBFB;
+  background: lightblue;
+  }
+
+  .Intervall, .Dura{
+   width: 133px;
+    height: 32px;
+  border-radius: 5px ;
+  box-shadow: 0px 0px 9px 2px #00000040;
+  border: 1px solid #FFFBFB;
+  }
+
+  .Dose::placeholder, .Intervall::placeholder, .Dura::placeholder{
+    color: black;
+
+  }
+
+  
+  #Adrug{
+    margin-left: 15px;
+    margin-top: 150px;
+
+  } 
+  .textSearchClass{
+    position: relative;
+    top: 5px;
+  } 
+  
+  .textSearchClas{
+    position: relative;
+    top: 5px;
+left: 25px;
+  }
+
+  .textSearchCl{
+    position: relative;
+    top: 10px;
+  }
+  .textSearchCla{}
+  
+  .textSearchC{ position: relative;
+    top: 10px;}
+  
+  .textSearchCC{
+    position: relative;
+    top: 10px;
+  }
+
+  .colI{
+    position: relative;
+    bottom: 120px;
+  }
+
+  
+
+  .colII{
+    position: relative;
+    bottom: 210px;
+    left: 218px;
+  }
+
+  .colIII{
+    position: relative;
+    bottom: 293px;
+    left: 519px;
+  }
+
+  .colIV{
+    position: relative;
+    bottom: 395px;
+    left: 627px;
+  }
+
+  .colV{
+    position: relative;
+    bottom: 485px;
+    left: 765px;
+  }
+
+  .colVI{
+    position: relative;
+    bottom: 575px;
+    left: 903px;
+  }
+
+  .AddBtnI{
+    width: 46px;
+    height: 28px;
+    border-radius: 5px;
+    border: 1px solid #9C3030;
+    background: #A12B2B;
+    color: #FFF;
+    position: relative;
+    left: 20px;
+    bottom: 650px;
+  }
+
+  .fa-angle-down .fa-angle-down{
+z-index: 10;
+  }
+
+
+  .Dose{
+    position: relative;
+    bottom: 10px;
+  }
+
+  
+
+
+.Mclass{
+  width: 243px;
+  height: 32px;
+border-radius: 5px ;
+box-shadow: 0px 0px 9px 2px #00000040;
+border: 1px solid #FFFBFB;
+background: #FFFFFF;
+position: relative;
+right: 120px;
+}
+
+
+.Mname{
+  width: 272px;
+  height: 32px;
+border-radius: 5px ;
+box-shadow: 0px 0px 9px 2px #00000040;
+border: 1px solid #FFFBFB;
+background: #FFFFFF;
+position: relative;
+right: 120px;
+}
+
+
+.Instruct{
+  width: 105px;
+  height: 31px;
+border-radius: 5px ;
+box-shadow: 0px 0px 9px 2px #00000040;
+border: 1px solid #FFFBFB;
+background: #FFFFFF;
+}
+
+.Instruct::placeholder{
+  color: black;
+}
+
+      
+      @media only screen and (max-width: 768px) {
+        * {
+            box-sizing: border-box;
+          }
+          
+          body {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #FFFFFF;
+          }
+          
+          .container {
+            width: 95%;
+            margin: 0 auto;
+            max-width: 760px;
+            padding-top: 20px;
+          }
+          
+          .heading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            box-shadow: 0px 4px 0px 0px #00000040;
+            background: #FFFFFF;
+            width: 100%;
+            height: 136px;
+            margin-bottom: 300px;
+          }
+          
+          .lab {
+            align-items: center;
+            height: 30px;
+            position: absolute;
+            left: 1px;
+          }
+          
+          .logoImg {
+            width: 50px;
+            height: 50px;
+            background: #9C3030;
+            border: 3px solid #9C3030;
+          }
+          
+          .labText {
+            margin-left: 5px;
+            background: #e8dede;
+            padding: 5px;
+            height: 50px;
+            width: 100px;
+            position: absolute;
+            left: 38px
+          }
+          
+          .Lis {
+            font-size: 12px;
+            color: #9C3030;
+            position: relative;
+            bottom: 10px;
+          }
+          
+          .barImg {
+            width: 30px;
+            cursor: pointer;
+            display: none; /* hidden on larger screens */
+          }
+          
+          .bellImg, .user, .arrow {
+            width: 30px;
+          }
+          
+          .Laboratory {
+            font-size: 20px;
+            font-weight: 900;
+            color: #5B5B5B;
+          }
+          
+          .Isaac {
+            font-size: 16px;
+            font-weight: bold;
+            color: #5B5B5B;
+          }
+          
+          .mainBody {
+            display: block;
+          }
+          
+          .leftSide {
+            background: #FFFFFF;
+            border: 1px solid #5B5B5B;
+            box-shadow: 6px -6px 6px 0px #00000040;
+            margin-top: 20px;
+            padding: 10px;
+            flex: 1;
+            width: 100%;
+            height: 550px;
+          margin-top: 10px;
+          }
+          .ANC{
+            margin-left: 50px;
+            margin-right: 10px;
+          }
+
+          .hr{
+            position: relative;
+            right: 104px;
+            width: 80px;
+          }
+
+          .arrroww{
+            position: relative;
+            left: 275px;
+          }
+          
+          .middle {
+            flex: 2;
+            margin-top: 20px;
+            padding: 10px;
+          }
+          
+          .centrePage {
+            position: absolute;
+            left: 1px;
+
+            display: block;
+            width: 100%;
+            height: 250px;
+            margin-bottom: 500px;
+            background: #FFFFFF;
+            padding: 20px;
+            box-shadow: 6px 6px 6px 6px #E5E5E5;
+          }
+          
+          .Blank{
+            font-size: 12px;
+            text-align: left;
+          }
+
+          .flexBlank{
+            position: absolute;
+            left: 10px;
+          }
+
+          .HomeText{
+            font-size: 12px;
+              position: relative;         
+              left: 400px;
+              bottom: 110px;
+              cursor: pointer;
+}
+
+.arrowRight{
+  display: none;
+}
+          .PageI{
+            font-size: 12px;
+            position: relative;         
+            left: 350px;
+            bottom: 70px;
+            cursor: pointer;
+
+          }
+
+          .PageII{
+            font-size: 12px;
+            position: relative;    
+            left: 292px;
+            bottom: 30px;
+            cursor: pointer;
+          
+          }
+          .bottomPage {
+            background: #FFFFFF;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 3px 3px 4px 7px #E5E5E5;
+          }
+          
+          .scrollable-content {
+            max-height: 600px;
+            overflow-y: auto;
+          }
+          
+      
+      
+        .Laboratory{
+          position: absolute;
+          left: 180px;
+          font-size: 18px;
+          bottom: 45px;
+        }
+        .arrow {
+        display: none;
+        }
+      
+        .barImg {
+          display: none; 
+        }
+        .bellImg{
+          position: absolute;
+          left: 430px;
+          width: 20px;
+          height: 20px;
+
+        }
+
+        .Isaac{
+         display: none;
+        }
+        .user{
+          position: absolute;
+          left: 450px;
+          width: 20px;
+          height: 20px;
+          top: 58px;
+        }
+      
+      
+      
+        .scrollable-content {
+          max-height: 500px;
+        }
+
+
+        .arrrowI{
+          position: relative;
+          top: 62px;
+          width: 15px;
+          height: 15.39px;
+          left: 82px;
+          }
+      
+          .arrrowII{
+              position: relative;
+              top: 62px;
+              width: 15px;
+              height: 15.39px;
+              left: 82px;
+          }
+      
+          .arrrowIII{
+              position: relative;
+              top: 62px;
+              width: 15px;
+              height: 15.39px;
+              left: 88px;
+          }
+      
+      
+          .arrrowIV{
+              position: relative;
+              top: 62px;
+              width: 15px;
+              height: 15.39px;
+              left: 121px;
+          }
+      
+      
+          .arrrowV{
+              position: relative;
+              top: 62px;
+              width: 15px;
+              height: 15.39px;
+              left: 105px;
+          }
+      
+      
+          .arrrowVI{
+              position: relative;
+              top: 62px;
+              width: 15px;
+              height: 15.39px;
+              left: 95px;
+          }
+      
+      
+          .arrrowVII{
+              position: relative;
+              top: 62px;
+              width: 15px;
+              height: 15.39px;
+              left: 145px;
+          }
+      
+      
+          .arrrowVIII{
+              position: relative;
+              top: 62px;
+              width: 15px;
+              height: 15.39px;
+              left: 104px;
+          }
+      
+      
+      
+          .arrroww{
+              position: relative;
+              width: 15px;
+              height: 15.39px;
+              left: 265px;
+              margin-top: 28px;
+              }
+          
+          label{
+              position: relative;
+              top: 65px;
+              width: 126px;
+              height: 30px;
+              font-family: Roboto;
+              font-size: 20px;
+              font-weight: 500;
+              line-height: 30.47px;
+              text-align: left;
+              color: #5B5B5B;
+          }
+
+
+.bottomPage{
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  top: 1040px;
+  left: 2px;
+  border: 0px solid #5B5B5B;
+  box-shadow: 3px 3px 4px 7px #E5E5E5;
+}
+
+.Netwalkers{
+  font-size: 16px;
+}
+
+.about{
+  font-size: 16px;
+  position: relative;
+  left: 38px;
+}
+
+
+
+      }
+      
+      @media only screen and (max-width: 480px) {
+        .logoImg, .bellImg, .user {
+          width: 25px;
+          height: 25px;
+        }
+      
+        .Isaac {
+          font-size: 14px;
+        }
+      
+        .Laboratory {
+          font-size: 16px;
+        }
+      
+        .leftSide {
+          padding: 5px;
+        }
+      
+        .centrePage {
+          padding: 10px;
+        }
+      
+        .bottomPage {
+          font-size: 12px;
+        }
+      
+        .scrollable-content {
+          max-height: 150px;
+        }
+      }
+      
