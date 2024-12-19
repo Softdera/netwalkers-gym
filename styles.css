@@ -3,18 +3,18 @@
   }
 
   body{
-    width: 1440px;
-    height: 1024px;
-    background: #FFFFFF;
+    margin-left: 0;
+    padding-left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #f1f1f1;
 
   }
 
   .container{
     position: relative;
-    width: 1397px;
+    width: 100%;
     height: 761px;
-    top: 132px;
-    left: 22px;
 
   }
 
@@ -23,6 +23,7 @@
     left: 5px;
     width: 1390px;
     height: 136px;
+    background: #FFFFFF;
     box-shadow: 0px 4px 0px 0px #00000040;
   }
 
@@ -73,24 +74,41 @@
     position: relative;
     font-size: 50px;
     margin: auto;
-    left: 357px;
-    bottom: 10px;
+    left: 225px;
+    bottom: 50px;
+    z-index: 8;
 }
 
 .bellImg{
     position: relative;
     width: 40px;
     height: 41.45px;
-    left: 681px;
+    left: 610px;
+    top: 4px;
+
 }
 
+.fa-calendar{
+  position: relative;
+    width: 40px;
+    left: 617px;
+    font-size: 41px;
+    bottom: 3px;
+
+}
 .user {
     position: relative;
     width: 50px;
     height: 50.15px;
-    left: 685px;
+    left: 600px;
     top: 8px;
     
+}
+
+.FrontF{
+  position: absolute;
+  left: 50px;
+  top: 105px;
 }
 
 
@@ -100,9 +118,9 @@
     bottom: 15px;
     width: 365px;
     height: 42px;
-    left: 424px;
+    left: 390px;
     font-family: Roboto;
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 900;
     line-height: 42.19px;
     text-align: left;
@@ -114,7 +132,7 @@
     position: relative;
     width: 153px;
     height: 28px;
-    left: 687px;
+    left: 600px;
     font-family: Roboto;
     font-size: 24px;
     font-weight: 900;
@@ -129,7 +147,7 @@
     position: relative;
     width: 15px;
     height: 15.39px;
-    left: 695px;
+    left: 600px;
     color: #5B5B5B;
     bottom: 9px;
 }
@@ -140,13 +158,33 @@
 }
 
 .leftSide {
-    width: 347px;
-    height: 620px;
+    width: 250px;
+    height: 1050px;
     top: 157px;
     background: #FFFFFF;
     border: 0px solid #5B5B5B;
     box-shadow: 6px -6px 6px 0px #00000040;
+    justify-content: center;
+    margin-right: 60px;
+    padding-left: 30px;
 
+}
+
+.topSect{
+  background: #FFFFFF;
+  border: 0px solid #5B5B5B;
+  height: 400px;
+  width: 350px;
+  text-align: center;
+  position: relative;
+  bottom: 28px;
+  right: 43px;
+
+}
+
+.midWrapper{
+  position: relative;
+  top: 260px;
 }
 
 .centrePage{
@@ -163,17 +201,16 @@
 
 .bottomPage{
     position: absolute;
-    width: 1030px;
+    width: 1130px;
     height: 89px;
-    top: 790px;
-    left: 367px;
     border: 0px solid #5B5B5B;
     box-shadow: 3px 3px 4px 7px #E5E5E5;
     display: flex;
     margin-top: 60px;
-    position: absolute;
-    top: 550px;
-    left: 2px;
+    top: 1050px;
+    left: 265px;
+    background: #FFFFFF;
+
 }
 
 .DrugPageText{
@@ -552,10 +589,10 @@ margin-right: 4px;
 
 .Netwalkers{
     position: relative;
-    width: 477px;
+    width: 530px;
     height: 22px;
-    left: 40px;
-    font-size: 19px;
+    left: 10px;
+    font-size: 15px;
     font-weight: 900;
     line-height: 22.27px;
     text-align: left;
@@ -568,16 +605,29 @@ margin-right: 4px;
     position: relative;
     width: 499px;
     height: 5px;
-    left: 898px;
     font-family: Roboto;
-    font-size: 19px;
+    font-size: 15px;
     font-weight: 900;
     line-height: 22.27px;
     text-align: left;
     color: #5B5B5B;
-    left: 60px;
+    left: 170px;
 }
 
+.superscript-circle {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 0.8em;
+  vertical-align: super;
+  display: inline-block;
+  position: relative;
+  left: 600px;
+  z-index: 20;
+  bottom: 15px;
+
+}
 
 
 .ANC{
@@ -585,57 +635,111 @@ margin-right: 4px;
     top: 70px;
     margin-right: 50px;
     margin-top: 26px;
+    font-size: 20px;
 }
 
 .arrrowI{
     position: relative;
-    top: 62px;
+    top: 64px;
     width: 15px;
     height: 15.39px;
-    left: 52px;
+    left: 112px;
     }
 
     .arrrowII{
         position: relative;
-        top: 62px;
+        top: 64px;
         width: 15px;
         height: 15.39px;
-        left: 55px;
+        left: 105px;
     }
 
     .arrrowIII{
         position: relative;
-        top: 62px;
+        top: 68px;
         width: 15px;
         height: 15.39px;
-        left: 65px;
+        left: 105px;
     }
 
 
     .arrrowIV{
         position: relative;
-        top: 62px;
+        top: 70px;
         width: 15px;
         height: 15.39px;
-        left: 109px;
+        left: 105px;
     }
 
 
     .arrrowV{
         position: relative;
-        top: 62px;
+        top: 68px;
         width: 15px;
         height: 15.39px;
-        left: 90px;
+        left: 85px;
     }
 
+    .arrrowVIIX{
+      position: relative;
+      top: 68px;
+      left: 98px;
+    }
 
     .arrrowVI{
         position: relative;
-        top: 62px;
+        top: 30px;
         width: 15px;
         height: 15.39px;
-        left: 77px;
+        left: 185px;
+    }
+
+    .arrrowVIII1{
+      position: relative;
+      top: 65px;
+      width: 15px;
+      height: 15.39px;
+      left: 118px;
+    }
+
+    .arrrowVIIIC{
+      position: relative;
+      top: 67px;
+      width: 15px;
+      height: 15.39px;
+      left: 97px;
+    }
+
+    .arrrowVIIID{
+      position: relative;
+      top: 67px;
+      width: 15px;
+      height: 15.39px;
+      left: 80px;
+    }
+
+    .arrrowVIIIE{
+      position: relative;
+      top: 68px;
+      width: 15px;
+      height: 15.39px;
+      left: 70px;
+    }
+
+    .arrrowVIIIF{
+      position: relative;
+      top: 68px;
+      width: 15px;
+      height: 15.39px;
+      left: 162px;
+    }
+
+    .arrrowVIIIN{
+      position: relative;
+      top: 68px;
+      width: 15px;
+      height: 15.39px;
+      left: 122px;
     }
 
 
@@ -644,7 +748,15 @@ margin-right: 4px;
         top: 62px;
         width: 15px;
         height: 15.39px;
-        left: 145px;
+        left: 105px;
+    }
+
+    .arrrowIVI{
+      position: relative;
+        top: 62px;
+        width: 15px;
+        height: 15.39px;
+        left: 112px;
     }
 
 
@@ -653,7 +765,7 @@ margin-right: 4px;
         top: 62px;
         width: 15px;
         height: 15.39px;
-        left: 94px;
+        left: 54px;
     }
 
 
@@ -662,23 +774,273 @@ margin-right: 4px;
         position: relative;
         width: 15px;
         height: 15.39px;
-        left: 265px;
+        left: 225px;
         margin-top: 28px;
         }
     
     label{
         position: relative;
         top: 65px;
+        left: 30px;
         width: 126px;
-        height: 30px;
         font-family: Roboto;
-        font-size: 26px;
-        font-weight: 500;
-        line-height: 30.47px;
+        font-size: 18px;
+        font-weight: bolder;
+        line-height: 10.47px;
         text-align: left;
         color: #5B5B5B;
+        margin-bottom: 40px;
     }
 
+   
+
+    #table1 {
+      width: 350px;
+      border-collapse: separate; 
+      border-spacing: 0 10px; 
+      margin: 20px 0;
+      position: absolute;
+      top: 493px;
+      left: 268px;
+      height: 200px;
+      background: #FFF;
+      overflow-y: auto; 
+
+
+    }
+
+    tr {
+      background-color: #f2f2f2;
+    }
+
+    td {
+      vertical-align: top;
+      border: 10px #fff; 
+    }
+
+    .left-align {
+      text-align: left;
+    }
+
+    .right-align {
+      text-align: right;
+    }
+
+    .fa-money-check-dollar{
+      position: relative;
+      top: 65px;
+    }
+
+    .fa-user-nurse{
+      position: relative;
+      top: 62px;
+
+    }
+
+    .fa-prescription{
+      position: relative;
+      top: 65px;
+    }
+
+    .fa-users{
+      position: relative;
+      top: 85px;
+    }
+    
+    .fa-money-bill-wave{
+      position: relative;
+      top: 65px;
+    }
+
+    .fa-folder-plus{
+      position: relative;
+      top: 65px;
+    }
+
+    .fa-warehouse{
+      position: relative;
+      top: 65px;
+    }
+
+    .fa-truck-medical{
+      position: relative;
+      top: 65px;
+    }
+
+    .fa-filter-circle-dollar{
+      position: relative;
+      top: 65px;
+    }
+
+    .fa-landmark{
+      position: relative;
+      top: 65px;
+    }
+
+    .fa-wrench{
+      position: relative;
+      top: 65px;
+    }
+
+    .div{
+      line-height: 40px;
+      position: relative;
+       top: 10px;
+    }
+
+    .div1{
+      line-height: 40px;
+     position: relative;
+      top: 60px;
+    }
+
+     .div2{
+     line-height: 40px;
+     position: relative;
+      top: 80px;
+    }
+
+    .div3 {
+      line-height: 40px;
+      position: relative;
+       top: 100px;
+     }
+
+     .div4 {
+      line-height: 40px;
+      position: relative;
+       top: 110px;
+     }
+
+     .div5 {
+      line-height: 40px;
+      position: relative;
+       top: 120px;
+     }
+
+     .div6 {
+      line-height: 40px;
+      position: relative;
+       top: 140px;
+     }
+
+     .div7{
+      line-height: 40px;
+      position: relative;
+       top: 150px;
+     }
+
+    .divI{
+      line-height: 40px;
+
+      position: relative;
+      top: 30px;
+    }
+
+    .divII{
+      line-height: 40px;
+
+      position: relative;
+      top: 50px;
+
+    }
+
+    .divIm{
+      line-height: 40px;
+
+      position: relative;
+      top: 55px;
+    }
+
+    .divIII{
+      line-height: 40px;
+
+      position: relative;
+      top: 50px;
+    }
+
+    .divP{
+      line-height: 40px;
+
+      position: relative;
+      top: 70px;
+
+    }
+
+    .divA{
+      line-height: 40px;
+
+      position: relative;
+      top: 80px;
+    }
+
+    #Imaging{
+      position: absolute;
+      top: 105px;
+      left: 50px;
+    }
+
+    #Shop{
+      position: relative;
+      left: 29px
+    }
+
+    #Setup{
+      position: relative;
+      left: 29px
+    }
+
+    #Marketing{
+      position: absolute;
+      top: 80px;
+      left: 50px;
+    }
+
+    #Ambulance{
+      position: relative;
+      left: 23px;
+    }
+
+    #Inventory{
+      position: relative;
+      left: 23px;
+    }
+
+    #Records{
+      position: relative;
+      left: 27px;
+    }
+
+    #Finance{
+      position: relative;
+      left: 25px;
+    }
+    #Admin{
+      position: relative;
+      left: 25px;
+      top: 80px;
+    }
+    #Pharmacy{
+      position: relative;
+      left: 28px;
+
+    }
+    #tory{
+      position: absolute;
+      top: 105px;
+      left: 50px;
+    }
+
+    .Billings{
+      position: relative;
+      left: 28px;
+    }
+
+    #Clinics{
+      position: relative;
+      left: 30px;
+      bottom: 28px;
+    }
 
     .vertical-line {
         position: absolute; 
@@ -696,10 +1058,60 @@ margin-right: 4px;
         width: 97.01px;
         height: 0px;
         top: 58px;
-        right: 46.01px;
+        right: 20px;
         border: 3px 0px 0px 0px;
         border: 3px solid #9C3030
       } 
+
+      .greyhr{
+        width: 197.01px;
+        border: 1px solid #ccc
+      }
+
+      .table_div{
+        background: #FFF;
+        height: 900px;
+      }
+      
+      #tableId{ 
+        width: 700px;
+      border-collapse: separate; 
+      border-spacing: 0 10px; 
+      margin: 20px 0;
+      position: absolute;
+      top: 123px;
+      left: 648px;
+      height: 200px;
+      background: #FFF;
+      overflow-y: auto; 
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 40px;
+      box-shadow: 6px 6px 6px 6px #8F8989;
+
+
+    }
+
+    tr {
+      background-color: #f2f2f2;
+    }
+
+    td {
+      vertical-align: top;
+      border: 10px #fff; 
+    }
+
+    .left-align {
+      text-align: left;
+    }
+
+    .right-align {
+      text-align: right;
+    }
+
+
+
+
 
       .NextBtn{
 
@@ -710,7 +1122,7 @@ margin-right: 4px;
       }
       
       .scrollable-content {
-        max-height: 620px;  
+        height: 95vh;  
         overflow-y: auto;  
       }
       
@@ -849,6 +1261,34 @@ left: 875px;
 
   }
 
+  .BtnB{
+    border-radius: 5px;
+    border: 1px solid #9C3030;
+    background: #A12B2B;
+    color: #FFF;
+    width: 66px;
+    height: 28px;
+  }
+
+  .BtnC{
+    border-radius: 5px;
+    border: 1px solid #9C3030;
+    background: #A12B2B;
+    color: #FFF;
+    width: 146px;
+    height: 28px;
+  }
+
+  .BtnE{
+    border-radius: 5px;
+    border: 1px solid #9C3030;
+    background: #A12B2B;
+    color: #FFF;
+    width: 66px;
+    height: 28px;
+  }
+
+
   #saveActionBtn{
     border-radius: 5px;
 border: 1px solid #9C3030;
@@ -905,7 +1345,7 @@ height: 28px;
     color: #A12B2B;
     background: #FFF;
     position: relative;
-    left: 110px;
+    left: 120px;
     bottom: 40px;
     
   }
@@ -1153,6 +1593,7 @@ background: #FFFFFF;
             font-size: 20px;
             font-weight: 900;
             color: #5B5B5B;
+
           }
           
           .Isaac {
@@ -1323,7 +1764,7 @@ background: #FFFFFF;
               top: 62px;
               width: 15px;
               height: 15.39px;
-              left: 88px;
+              left: 148px;
           }
       
       
@@ -1347,7 +1788,7 @@ background: #FFFFFF;
       
           .arrrowVI{
               position: relative;
-              top: 62px;
+              top: 50px;
               width: 15px;
               height: 15.39px;
               left: 95px;

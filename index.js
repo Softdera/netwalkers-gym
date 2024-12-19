@@ -36,12 +36,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 throw new Error(`HTTP error! Status: ${response.status}`);
             }
             const medicines = await response.json();
+            console.log("Medicines:", medicines); // Debugging log to verify API response
 
             // Populate MnameSelect
             if (Array.isArray(medicines) && medicines.length > 0) {
                 MnameSelect.innerHTML = '<option value="">Select medicine name</option>'; // Clear existing options
                 medicines.forEach(medicine => {
-                    MnameSelect.innerHTML += `<option value="${medicine.id}">${medicine.name}</option>`;
+                    MnameSelect.innerHTML += `<option value="${medicine.medicine_id}">${medicine.medicine_name}</option>`;
                 });
             } else {
                 MnameSelect.innerHTML = '<option value="">No medicines found</option>'; // No medicines found
@@ -119,3 +120,4 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initialize medicine classes on page load
     fetchMedicineClasses();
 });
+

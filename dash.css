@@ -1,0 +1,647 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body{
+    margin-left: 0;
+    padding-left: 0;
+    width: 100%;
+    height: 100vh;
+
+  }
+
+  .containerPage{
+    position: relative;
+    width: 100%;
+    height: 761px;
+
+  }
+
+  .headingPage{
+    position: relative;
+    left: 5px;
+    width: 100%;
+    height: 136px;
+    background: #A12B2B;
+    color: #FFFFFF ;
+    box-shadow: 0px 4px 0px 0px #00000040;
+  }
+
+  .lab {
+    align-items: center;
+    height: 30px;
+    position: absolute;
+    left: 45px;
+  }
+  
+  .logoImg {
+    width: 60px;
+    height: 60px;
+    background: #9C3030;
+    border: 3px solid #9C3030;
+    position: relative;
+    top: 55px;
+  }
+
+  .labText {
+    margin-left: 5px;
+    background: #FFFFFF;
+    padding: 5px;
+    height: 50px;
+    width: 185px;
+    position: relative;
+    left: 78px;
+    bottom: 4px;
+  }
+  
+  .Lis {
+    font-size: 25px;
+    color: #9C3030;
+    position: relative;
+    bottom: 25px;
+    left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .fa-bars{
+    width: 30px;
+    cursor: pointer;
+    font-size: 60px;
+    position: relative;
+    left: 350px;
+    top: 55px;
+  }
+  
+  .bellImg, .user {
+    width: 30px;
+    position: relative;
+    left: 750px;
+    top: 48px;
+    
+  }
+
+  .user{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 52px;
+  }
+
+  .surelere{
+    position: relative;
+    left: 700px;
+    bottom: 5px;
+
+  }
+
+  .arrow{
+    color: #FFFFFF;
+    position: relative;
+    left: 750px;
+    top: 40px;
+    z-index: 20;
+  }
+  
+  .Laboratory {
+    font-size: 33px;
+    font-weight: 900;
+    color: #FFFFFF;
+    position: relative;
+    left: 380px;
+    top: 45px;
+
+  }
+  
+  .Isaac {
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    position: relative;
+    left: 750px;
+    top: 40px;
+  }
+  
+  .mainBody {
+    display: block;
+  }
+  
+.leftSide {
+    width: 350px;
+    height: 650px;
+    top: 157px;
+    background: #FFFFFF;
+    border: 0px solid #5B5B5B;
+    box-shadow: 6px -6px 6px 0px #00000040;
+    justify-content: center;
+    margin-right: 60px;
+    padding-left: 30px;
+    position: relative;
+    top: 20px;
+
+}
+
+  .ANC{
+    margin-left: 50px;
+    margin-right: 10px;
+  }
+
+  .hr{
+    position: relative;
+    right: 104px;
+    width: 80px;
+  }
+
+  .checkboxes {
+    width: 100%; 
+  }
+  
+  .scrollable-content {
+    height: 65vh;  
+    overflow-y: auto;  
+  }
+  
+  .scrollable-content div {
+    margin-bottom: 10px;
+  }
+  
+  .scrollable-content::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .scrollable-content::-webkit-scrollbar-thumb {
+    background-color: #C4C4C4;
+    border-radius: 4px;
+  }
+  
+  .scrollable-content::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+
+
+  label{
+    position: relative;
+    top: 65px;
+    left: 30px;
+    width: 126px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: 10.47px;
+    text-align: left;
+    color: #5B5B5B;
+    margin-bottom: 40px;
+}
+
+.grayBackground{
+    background: #5B5B5B;
+    color: #FFFFFF;
+}
+
+  .buttonsPark {
+    display: flex;
+    position: relative;   
+    bottom: 60px;     
+}
+
+.centrePage{
+    position: absolute;
+    width: 1064px;
+    height: 530px;
+    top: 157px;
+    left: 380px;
+    border: 0px solid #5B5B5B;
+    box-shadow: 6px 6px 6px 6px #E5E5E5;
+    background: #FFFFFF;
+  
+}
+
+.PageI{
+    position: relative;
+    top: 40px;
+    left: 50px;
+    margin-left: 5px;
+    font-size: 16px;
+    color:#C4C4C4;
+
+
+}
+
+.bottomPage{
+    position: absolute;
+    width: 1066px;
+    height: 89px;
+    border: 0px solid #5B5B5B;
+    display: flex;
+    margin-top: 60px;
+    top: 650px;
+    left: 380px;
+    background: #A12B2B;
+    color: #FFFFFF;
+
+}
+
+
+.flexBlank{
+    display: flex;
+    position: relative;
+    bottom: 40px;
+    left: 790px;
+}
+
+
+
+.arrowRight{
+    width: 15px;
+height: 17.14px;
+padding: 1.26px 0px 1.26px 0px;
+margin-left: 4px;
+margin-right: 4px;
+}
+
+
+.Netwalkers{
+    position: relative;
+    width: 530px;
+    height: 22px;
+    left: 30px;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 22.27px;
+    text-align: left;
+    color: #FFFFFF;
+    font-family: Roboto;
+
+}
+
+.about{
+    position: relative;
+    width: 499px;
+    height: 5px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 22.27px;
+    text-align: left;
+    color: #FFFFFF;
+    left: 145px;
+}
+
+.superscript-circle {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 0.8em;
+  vertical-align: super;
+  display: inline-block;
+  position: relative;
+  left: 600px;
+  z-index: 20;
+  bottom: 15px;
+
+}
+
+
+.ANC{
+    position: relative;
+    top: 70px;
+    margin-right: 50px;
+    margin-top: 26px;
+    font-size: 20px;
+}
+
+.arrrowI{
+    position: relative;
+    top: 64px;
+    width: 15px;
+    height: 15.39px;
+    left: 42px;
+    }
+
+    .arrrowII{
+        position: relative;
+        top: 64px;
+        width: 15px;
+        height: 15.39px;
+        left: 45px;
+    }
+
+    .arrrowIII{
+        position: relative;
+        top: 68px;
+        width: 15px;
+        height: 15.39px;
+        left: 45px;
+    }
+
+
+    .arrrowIV{
+        position: relative;
+        top: 70px;
+        width: 15px;
+        height: 15.39px;
+        left: 80px;
+    }
+
+
+    .arrrowV{
+        position: relative;
+        top: 68px;
+        width: 15px;
+        height: 15.39px;
+        left: 65px;
+    }
+
+    .arrrowVIIX{
+      position: relative;
+      top: 68px;
+      left: 58px;
+    }
+
+    .arrrowVI{
+        position: relative;
+        top: 65px;
+        width: 15px;
+        height: 15.39px;
+        left: 56px;
+    }
+
+    .arrrowVIII1{
+      position: relative;
+      top: 65px;
+      width: 15px;
+      height: 15.39px;
+      left: 68px;
+    }
+
+    .arrrowVIIIC{
+      position: relative;
+      top: 67px;
+      width: 15px;
+      height: 15.39px;
+      left: 97px;
+    }
+
+    .arrrowVIIID{
+      position: relative;
+      top: 67px;
+      width: 15px;
+      height: 15.39px;
+      left: 80px;
+    }
+
+    .arrrowVIIIE{
+      position: relative;
+      top: 68px;
+      width: 15px;
+      height: 15.39px;
+      left: 70px;
+    }
+
+    .arrrowVIIIF{
+      position: relative;
+      top: 68px;
+      width: 15px;
+      height: 15.39px;
+      left: 162px;
+    }
+
+    .arrrowVIIIN{
+      position: relative;
+      top: 68px;
+      width: 15px;
+      height: 15.39px;
+      left: 122px;
+    }
+
+
+    .arrrowVII{
+        position: relative;
+        top: 62px;
+        width: 15px;
+        height: 15.39px;
+        left: 105px;
+    }
+
+    .arrrowIVI{
+      position: relative;
+        top: 62px;
+        width: 15px;
+        height: 15.39px;
+        left: 112px;
+    }
+
+
+    .arrrowVIII{
+        position: relative;
+        top: 62px;
+        width: 15px;
+        height: 15.39px;
+        left: 54px;
+    }
+
+
+
+    .arrroww{
+        position: relative;
+        width: 15px;
+        height: 15.39px;
+        left: 55px;
+        top: 70px;
+        margin-top: 28px;
+        }
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    * {
+        box-sizing: border-box;
+      }
+      
+      body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #FFFFFF;
+      }
+      
+      .containerPage {
+        width: 95%;
+        margin: 0 auto;
+        max-width: 760px;
+        padding-top: 20px;
+      }
+      .headingPage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        box-shadow: 0px 4px 0px 0px #00000040;
+        background: #9C3030;
+        width: 100%;
+        height: 136px;
+        margin-bottom: 300px;
+      }
+      .lab {
+        align-items: center;
+        height: 30px;
+        position: absolute;
+        left: 1px;
+      }
+      
+      .logoImg {
+        width: 50px;
+        height: 50px;
+        background: #9C3030;
+        border: 3px solid #9C3030;
+      }
+      
+      .labText {
+        margin-left: 5px;
+        background: #e8dede;
+        padding: 5px;
+        height: 50px;
+        width: 100px;
+        position: absolute;
+        left: 38px
+      }
+      
+      .Lis {
+        font-size: 12px;
+        color: #9C3030;
+        position: relative;
+        bottom: 10px;
+      }
+      
+      .barImg {
+        width: 30px;
+        cursor: pointer;
+        display: none; /* hidden on larger screens */
+      }
+      
+      .bellImg, .user, .arrow {
+        width: 30px;
+      }
+      
+      .Laboratory {
+        font-size: 20px;
+        font-weight: 900;
+        color: #5B5B5B;
+
+      }
+      
+      .Isaac {
+        font-size: 16px;
+        font-weight: bold;
+        color: #5B5B5B;
+      }
+      
+      .mainBody {
+        display: block;
+      }
+      
+      .leftSide {
+        background: #FFFFFF;
+        border: 1px solid #5B5B5B;
+        box-shadow: 6px -6px 6px 0px #00000040;
+        margin-top: 20px;
+        padding: 10px;
+        flex: 1;
+        width: 100%;
+        height: 550px;
+      margin-top: 10px;
+      }
+      .ANC{
+        margin-left: 50px;
+        margin-right: 10px;
+      }
+
+      .hr{
+        position: relative;
+        right: 104px;
+        width: 80px;
+      }
+    
+      .centrePage {
+      position: absolute;
+      left: 1px;
+
+      display: block;
+      width: 100%;
+      height: 250px;
+      margin-bottom: 500px;
+      background: #FFFFFF;
+      padding: 20px;
+      box-shadow: 6px 6px 6px 6px #E5E5E5;
+    }
+    
+    .Blank{
+      font-size: 12px;
+      text-align: left;
+    }
+
+    .flexBlank{
+      position: absolute;
+      left: 10px;
+    }
+
+    .HomeText{
+      font-size: 12px;
+        position: relative;         
+        left: 400px;
+        bottom: 110px;
+        cursor: pointer;
+}
+label{
+    position: relative;
+    top: 65px;
+    width: 126px;
+    height: 30px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30.47px;
+    text-align: left;
+    color: #5B5B5B;
+}
+
+    
+    
+    
+    }
+
+    @media only screen and (max-width: 480px) {
+        .logoImg, .bellImg, .user {
+          width: 25px;
+          height: 25px;
+        }
+      
+        .Isaac {
+          font-size: 14px;
+        }
+      
+        .Laboratory {
+          font-size: 16px;
+        }
+      
+        .leftSide {
+          padding: 5px;
+        }
+      
+        .centrePage {
+          padding: 10px;
+        }
+      
+        .bottomPage {
+          font-size: 12px;
+        }
+      
+        .scrollable-content {
+          max-height: 150px;
+        }
+      }
